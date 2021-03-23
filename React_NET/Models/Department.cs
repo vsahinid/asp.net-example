@@ -1,10 +1,14 @@
 ﻿using System;
-namespace React_NET.Models
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WebAPI.Models
 {
     public class Department
     {
-        public Department()
-        {
-        }
+        public int DepartmentId { get; set; }
+
+        public string DepartmentName { get; set; }
     }
 }
